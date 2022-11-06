@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="colors">
+        <h2 class="numbered-title"><span>01</span> colors</h2>
+        <div class="flex">
+          <div style="flex-grow: 1">
+            <div
+              style="padding: 3rem 1rem 1rem; border: 1px solid black"
+              class="bg-yellow uppercase"
+            >
+              #ffdd1a
+            </div>
+            <p><span class="text-accent">RGB</span> 255, 221, 26</p>
+            <p><span class="text-accent">HSL</span> 51º, 100%, 55%</p>
+          </div>
+
+          <div style="flex-grow: 1">
+            <div
+              style="padding: 3rem 1rem 1rem; border: 1px solid black"
+              class="bg-accent text-dark uppercase"
+            >
+              #ff901a
+            </div>
+            <p><span class="text-accent">RGB</span> 255, 144, 26</p>
+            <p><span class="text-accent">HSL</span> 31º, 100%, 55%</p>
+          </div>
+
+          <div style="flex-grow: 1">
+            <div
+              style="padding: 3rem 1rem 1rem; border: 1px solid black"
+              class="bg-black text-white uppercase"
+            >
+              #000000
+            </div>
+            <p><span class="text-accent">RGB</span> 0, 0, 0</p>
+            <p><span class="text-accent">HSL</span> 0º, 100%, 0%</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Typography  -->
+
+      <section id="typography" style="margin: 4rem 0">
+        <h2 class="numbered-title"><span>02 </span>Typography</h2>
+        <div class="flex">
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Heading 1 - Amatic SC - 150px</p>
+              <p class="fs-900 ff-amatic uppercase">Artwork</p>
+            </div>
+            <div>
+              <p class="text-accent">Heading 2 - Amatic SC - 100px</p>
+              <p class="fs-800 ff-amatic uppercase">Marvel Cards</p>
+            </div>
+            <div>
+              <p class="text-accent">
+                Heading 3 - Roboto Condensed - 28px - 4.75 Character Space
+              </p>
+              <p
+                class="text-accent fs-500 ff-roboto-cond uppercase letter-spacing-1"
+              >
+                Get in touch below!
+              </p>
+            </div>
+          </div>
+
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Subheading 1 - Roboto Condensed - 28px</p>
+              <p class="fs-500 ff-roboto-cond">Instragram</p>
+            </div>
+            <div>
+              <p class="text-accent">
+                Nav Text - Roboto Condensed - 16px - 2.7 Character Space
+              </p>
+              <p class="fs-300 ff-roboto-cond uppercase letter-spacing-3">
+                About || contact || home
+              </p>
+            </div>
+            <div>
+              <p class="text-accent">Body Text</p>
+              <p style="text-align: justify">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
+                neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                ligula sollicitudin laoreet viverra, tortor libero sodales leo,
+                eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
+                Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh
+                nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel,
+                nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor
+                libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
+                mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit
+                amet, consectetuer adipiscing elit. Phasellus hendrerit.
+                Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel,
+                dapibus id, mattis vel, nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow" id="interactive-elements">
+        <h2 class="numbered-title"><span>03</span> Navigation</h2>
+
+        <!-- navigation -->
+
+        <div class="bg-black" style="padding: 1rem 2rem;">
+          <nav>
+            <ul class="primary-navigation--dark underline-indicators--dark flex" style="justify-content: center;">
+              <li class="active">
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  >Active</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  >Hovered</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  >Idle</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div style="margin-bottom: 5rem; padding: 1rem 2rem;">
+          <nav>
+            <ul class="primary-navigation underline-indicators flex" style="justify-content: center;">
+              <li class="active">
+                <a class="uppercase text-black letter-spacing-2" href="#"
+                  >Active</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-black letter-spacing-2" href="#"
+                  >Hovered</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-black letter-spacing-2" href="#"
+                  >Idle</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
