@@ -121,6 +121,7 @@ select {
 .logo-container {
   max-height: 10rem;
   aspect-ratio: 1;
+  justify-self: start;
 }
 
 .grid-container {
@@ -292,6 +293,7 @@ select {
 }
 
 .underline-indicators--dark > .active,
+.underline-indicators--dark > *:active,
 .underline-indicators--dark > [aria-selected="true"] {
   border-color: hsl(var(--clr-yellow) / 1);
   transition: 500ms;
@@ -331,6 +333,7 @@ select {
 }
 
 .underline-indicators > .active,
+.underline-indicators > *:active,
 .underline-indicators > [aria-selected="true"] {
   border-color: hsl(var(--clr-yellow) / 1);
   transition: 500ms;
