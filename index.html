@@ -22,62 +22,64 @@
     />
 
     <!-- Title / icon -->
-    <title>Todd The Fox Art | Home</title>
-  </head>
- 
-  <body>
-    <header class="bg-black grid-container">
-      <div class="logo-container">
-        <img
-          src="./resources/images/âPngtreeâfox icon design_2937700.png"
-          alt="todd the fox art logo"
-        />
-      </div>
-      <div
-        class="ff-amatic text-yellow uppercase"
-        style="justify-self: end"
-      >
-        <h1 class="fs-900">#Toddthefox</h1>
-        <h2 class="fs-500 letter-spacing-1">
-          I can't remember your tagline
-        </h2>
-      </div>
-    </header>
-    <div class="bg-black" style="padding: 1rem 2rem">
-      <nav>
-        <ul
-          class="primary-navigation--dark underline-indicators--dark flex"
-          style="justify-content: center"
-        >
-          <li class="active">
-            <a class="uppercase text-white letter-spacing-2" href="#"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a class="uppercase text-white letter-spacing-2" href="#"
-              >Artwork</a
-            >
-          </li>
-          <li>
-            <a class="uppercase text-white letter-spacing-2" href="#"
-              >Shop</a
-            >
-          </li>
-          <li>
-            <a class="uppercase text-white letter-spacing-2" href="#"
-              >About</a
-            >
-          </li>
-          <li>
-            <a class="uppercase text-white letter-spacing-2" href="#"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-   
-  </body>
+    <title>Todd The Fox Art</title>
 
+     <!-- Scripts -->
+     <script src="./resources/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="grid-container grid-container--header bg-black text-yellow ff-amatic uppercase">
+        <img class="logo" src="./resources/images/TTF-Web-Banner.png" alt="Todd The Fox Logo">
+        <h1 class="title fs-900">#ToddthefoxArt</h1>
+        <h2 class="tagline fs-500">Not part of the dark, just deeper in the shadows</h2>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+          <span class="sr-only" aria-expanded="false">Menu</span>
+          <img src="./resources/images/icons/show-more-one.png">
+        </button>
+        <nav class="navigation">
+          <ul
+            class="primary-navigation underline-indicators flex"
+            data-visible="false"
+          >
+            <li class="active">
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Artwork</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Freebies</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="uppercase text-white letter-spacing-2" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section id="tiles" class="grid-container grid-container--tiles">
+        <div class="tile-1"></div>
+        <div class="tile-2"></div>
+        <div class="tile-3"></div>
+        <div class="tile-4"></div>
+        <div class="tile-5"></div>
+        <div class="tile-6"></div>
+        <div class="tile-7"></div>
+        <div class="tile-8"></div>
+      </section>
+    </main>
+  </body>
 </html>
