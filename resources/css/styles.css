@@ -364,16 +364,20 @@ select {
     display: block;
     position: absolute;
     z-index: 2000;
-    right: 1rem;
-    top: 2rem;
+    right: 0;
+    top: 0;
     background: transparent;
     width: 4rem;
     aspect-ratio: 1;
     border: 0;
   }
 
+  .mobile-nav-toggle[aria-expanded="false"] > img {
+    content: url(../images/icons/menu-open.png);
+  }
+
   .mobile-nav-toggle[aria-expanded="true"] > img {
-    content: url(../images/icons/show-more-one.png);
+    content: url(../images/icons/menu-close.png);
   }
 
   .mobile-nav-toggle:focus-visible {
